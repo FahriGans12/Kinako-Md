@@ -36,7 +36,7 @@ let text = `⬣━━━►〔 *𝚂𝙴𝚆𝙰 & 𝙿𝚁𝙴𝙼𝙸𝚄𝙼*
 ┗━━━► *${author}* ◄━━━⬣
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '☕ DEVELOPER', url: `https://wa.me/${nomorown}?text=hai`}},
+    {index: 1, urlButton: {displayText: ' DEVELOPER', url: `https://wa.me/${nomorown}?text=hai`}},
     
 ]
 let tm = {

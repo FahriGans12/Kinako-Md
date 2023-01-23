@@ -11,7 +11,7 @@ ${sgc}
 ${syt}
 ✧──────────···──────────✧
 `.trim()
-conn.sendButton(m.chat, str, `${botol}`, [[' MENU','.menu']],m)
+conn.sendButton(m.chat, str, `${botol}`, [['🌹 MENU','.menu']],m)
 }
 handler.help = ['gcbot']
 handler.tags = ['info']

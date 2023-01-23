@@ -37,39 +37,20 @@ let tags = {
   'war': 'War Menu',
 }
 const defaultMenu = {
-  before: `┏━━━►〔 * INFO USER * 〕◄━━━━ 
-┃❂ *Name:* %name
-┃❂ *Tag:* %name
-┃❂ *Status:* %prems
-┃❂ *Limit:* %limit
-┃❂ *Role:* %role
-┃❂ *Level:* %level [ %xp4levelup Xp For Levelup]
-┃❂ *Xp:* %exp / %maxexp
-┃❂ *Total Xp:* %totalexp
-┗━━━━━━━⬣
-┏━━━►〔 * TODAY * 〕◄━━━━
-┃☂︎ *Days:* %week %weton
-┃☂︎ *Date:* %date
-┃☂︎ *Jam:* ${wib2} WIB
-┗━━━━━━━⬣
-┏━━━►〔 * INFO * 〕◄━━━━
-┃۞ *Bot Name:* %me
-┃۞ *Mode:* Public
-┃۞ *Platform:* Linux
-┃۞ *Type:* Node.Js
-┃۞ *Baileys:* Multi Device
-┃۞ *Uptime:* %muptime
-┃۞ *Database:* %rtotalreg dari %totalreg
-┗━━━━━━━⬣
-┏━━━►〔 * INFO COMMAND * 〕◄━━━━
-┃✯ *🅟* = Premium
-┃✯ *🅛* = Limit
-┗━━━━━━━⬣
+  before: `
+ ⏰ %week %weton %date ${wib2} WIB
+
+     *Bot Name:* %me
+     *Mode:* Public
+     *Platform:* Linux
+     *Type:* Node.Js
+     *Baileys:* Multi Device
+     *Uptime:* %muptime
 %readmore`.trimStart(),
-  header: '┏━━━▶〔 *%category* 〕◀━━━━⬣',
-    body: '┃✇ %cmd %islimit %isPremium',
-  footer: '┗━━━━━━⬣\n',
-  after: `  ${'✧\n┏━📮 *Note* :\n┃ DONT FORGET SUBSCRIBE MY CHANNEL! ^_^\n┗━━━━━━━━━━━━━━━━━━━⬣'}`,
+  header: '┏━━━〔 *%category* 〕━━━━',
+    body: '┃≻ %cmd %islimit %isPremium',
+  footer: '┗━━━━━━\n',
+  after: `  ${'✧\n┏━ *Note* :\n┃ DONT SPAM\n┗━━━━━━━━━━━━━━━━━━━'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
@@ -135,8 +116,8 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                .replace(/%islimit/g, menu.limit ? '🅛' : '')
-                .replace(/%isPremium/g, menu.premium ? '🅟' : '')
+                .replace(/%islimit/g, menu.limit ? ' ' : '')
+                .replace(/%isPremium/g, menu.premium ? ' ' : '')
                 .trim()
             }).join('\n')
           }),
@@ -171,12 +152,12 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-    let asww = `💌 Ultah ${global.nameown} : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`
+    let asww = ` ${global.nameown} : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`
     conn.reply(m.chat, wait)
     conn.sendButton(m.chat,
 `${wish()} ${name}
 `, text.trim(), `${flaa}All Menu`, [
-      [`☕ DEVELOPER`, `${usedPrefix}owner`]
+      [` DEVELOPER`, `${usedPrefix}owner`]
     ], m, {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
                         sourceUrl: syt,
@@ -204,7 +185,7 @@ handler.tags = ['info', 'main']
 handler.command = /^(menu|help)$/i
 
 handler.limit = false
-handler.register = true
+handler.register = false
 handler.exp = 3
 
 export default handler
@@ -228,19 +209,19 @@ function wish() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   wishloc = ('Hi')
   if (time >= 0) {
-    wishloc = ('Selamat Malam🌃')
+    wishloc = ('Selamat Malam👻')
   }
   if (time >= 4) {
-    wishloc = ('Selamat Pagi🌄')
+    wishloc = ('Ohayou🐋')
   }
   if (time >= 12) {
-    wishloc = ('Selamat Siang☀️')
+    wishloc = ('Selamat Siang🐋️')
   }
   if (time >= 16) {
-    wishloc = ('️ Selamat Malam🌇')
+    wishloc = ('️ Selamat Malam👻')
   }
   if (time >= 23) {
-    wishloc = ('Selamat Malam🌙')
+    wishloc = ('Selamat Malam👻')
   }
   return wishloc
 }
