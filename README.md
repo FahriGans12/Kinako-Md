@@ -3,7 +3,7 @@
 Dimohon untuk menambahkan kredits di bawah yah makasih
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 <p align="center">
-    <img src="https://i.ibb.co/PxSxQhd/20221103-171638.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://telegra.ph/file/4410f29558b1ccbdb8474.png" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h1 align="center">Kinako-Md</h1>
 
