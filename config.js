@@ -99,9 +99,9 @@ global.nomorowner = 'wa.me/6283811034750'
 global.pacarowner = 'Kepo luwh dick:v'
 
 /*============== TEXT ==============*/
-global.wait = '_In progress, please wait..._'
+global.wait = '_Masih loading..._'
 global.eror = '```GAGAL```'
-global.cptnya = `_Nih kak_\n\nJangan lupa mampir di channel *KAZEDEVID*`
+global.cptnya = `_Nih kak_\n\nBeri jeda saat menggunakan bot`
 global.botintro = `Hai👋 Saya Adalah Bot WhatsApp Yang Bernama ${global.namebot}, Saya di buat oleh ${global.nameown} yang menggunakan bahasa nodejs`
 global.anticall = `kamu Di blockir oleh ${global.namebot} karena telah melanggar aturan ${global.namebot}\n\n*📮Dilarang menelepon ${global.namebot}!*`
 global.antiasing = ` See You Next Time `
