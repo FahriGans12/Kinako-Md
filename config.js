@@ -26,34 +26,34 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
     })
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/_pahilz26' 
-global.syt = 'https://youtube.com/channel/UCbbWYVvhTHz3AzfgYz4fMgg'
-global.sgh = 'https://github.com/amelcanss/'
-global.sgc = 'https://chat.whatsapp.com/Lg1V1A0lRRA7d9Iaq117um'
-global.swa = 'wa.me/6287833306677'
+global.sig = 'https://instagram.com/redev999' 
+global.syt = 'https://youtube.com/channel/UCbbWYVvhTHz3Azfg4fMgg'
+global.sgh = 'https://github.com/RezDev.'
+global.sgc = 'https://chat.whatsapp.com/FgKSkBUnTV96PPaNGFpAnN'
+global.swa = 'wa.me/6283811034750'
 global.stg = 't.me/KenalSayaaa'
 global.swb = 'https://'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 global.ultahown = 'Maret 23 2023 00:00:01'
 
 /*============== PAYMENT ==============*/
-global.pdana = '087833306677'
+global.pdana = '083811034750'
 global.povo = '-'
 global.pgopay = '-'
-global.ppulsa = '087833306677'
-global.ppulsa2 = '0895351308611'
-global.psaweria = 'https://saweria.co/amelcanss'
+global.ppulsa = '083811034750'
+global.ppulsa2 = ' '
+global.psaweria = ' '
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6287852161042'
-global.nomorown = '6287833306677'
-global.namebot = '𝙁𝙖𝙝𝙞𝙡𝘽𝙤𝙩𝙯'
-global.nameown = 'Fahil'
+global.nomorbot = '6283168004413'
+global.nomorown = '6283811034750'
+global.namebot = 'RezBotz~レゼ'
+global.nameown = 'RezDev.'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6287833306677', 'Fahil', 'true']
+  ['6283811034750', 'RezDev.', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -95,7 +95,7 @@ global.intro = 'https://i.ibb.co/PxSxQhd/20221103-171638.jpg'
 global.nameowner = `${global.nameown}`
 global.umurowner = '18'
 global.asalowner = 'Jatim, Madura'
-global.nomorowner = 'wa.me/6287833306677'
+global.nomorowner = 'wa.me/6283811034750'
 global.pacarowner = 'Kepo luwh dick:v'
 
 /*============== TEXT ==============*/
@@ -126,22 +126,22 @@ global.fpagedoc = '999'
 global.dmenut = '❏═┅═━–〈' //top
 global.dmenub = '┊•' //body
 global.dmenub2 = '┊' //body for info cmd on Default menu
-global.dmenuf = '┗––––––––––✦' //footer
-global.hiasan = '꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷꒦'
+global.dmenuf = '┗––––––––––' //footer
+global.hiasan = ' '
 
 // COMMAND MENU
 global.cmenut = '––––––『' //top
 global.cmenuh = '』––––––' //header
 global.cmenub = '┊☃︎ ' //body
-global.cmenuf = '┗━═┅═━––––––๑\n' //footer
+global.cmenuf = '┗━═┅═━––––––\n' //footer
 global.cmenua = '' //after
 global.pmenus = '☃︎' //pembatas menu selector
 
 global.htki = '––––『' //hiasan title kiri
 global.htka = '』––––' //hiasan title kanan
-global.lopr = 'Ⓟ'
-global.lolm = 'Ⓛ'
-global.htjava = '❃' //hiasan Doang :v
+global.lopr = ' '
+global.lolm = ' '
+global.htjava = ' ' //hiasan Doang :v
 
 global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
