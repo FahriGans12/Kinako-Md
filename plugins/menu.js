@@ -9,7 +9,6 @@ const wib2 = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 let tags = {
   'main': 'Main',
   'game': 'Game',
-  'rpg': 'RPG Games',
   'xp': 'Exp & Limit',
   'sticker': 'Sticker',
   'kerang': 'Kerang Ajaib',
@@ -47,9 +46,9 @@ const defaultMenu = {
      *Baileys:* Multi Device
      *Uptime:* %muptime
 %readmore`.trimStart(),
-  header: '┏━━━〔 *%category* 〕━━━━',
-    body: '┃≻ %cmd %islimit %isPremium',
-  footer: '┗━━━━━━\n',
+  header: '*%category* ',
+    body: '• %cmd %islimit %isPremium',
+  footer: '\n',
   after: `  ${'✧\n┏━ *Note* :\n┃ DONT SPAM\n┗━━━━━━━━━━━━━━━━━━━'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
@@ -152,7 +151,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-    let asww = ` Ultah ${global.nameown} : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`
+    let asww = ` ${global.nameown} : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`
     conn.reply(m.chat, wait)
     conn.sendButton(m.chat,
 `${wish()} ${name}
