@@ -70,7 +70,7 @@ global.APIKeys = { // APIKey Here
 }
 
 /*============== WATERMARK ==============*/
-global.wm = `© copyright ${global.nameown} || ${global.namebot}` //Main Watermark
+global.wm = ` ${global.nameown} || ${global.namebot}` //Main Watermark
 global.wm2 = `${global.namebot}`
 global.wm3 = `${global.nameown}`
 global.botdate = `私 𝗗𝗮𝘁𝗲: ${week} ${date}\n私 𝗧𝗶𝗺𝗲: ${wktuwib}`
@@ -101,7 +101,7 @@ global.pacarowner = 'Kepo luwh dick:v'
 /*============== TEXT ==============*/
 global.wait = '_In progress, please wait..._'
 global.eror = '```GAGAL```'
-global.cptnya = `_Nih kak_\n\n `
+global.cptnya = `_Nih kak_`
 global.botintro = `Hai👋 Saya Adalah Bot WhatsApp Yang Bernama ${global.namebot}, Saya di buat oleh ${global.nameown} yang menggunakan bahasa nodejs`
 global.anticall = `kamu Di blockir oleh ${global.namebot} karena telah melanggar aturan ${global.namebot}\n\n*📮Dilarang menelepon ${global.namebot}!*`
 global.antiasing = ` See You Next Time `
