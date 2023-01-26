@@ -18,5 +18,5 @@ const openai = new OpenAIApi(configuration);
     }
 handler.help = ['ai', 'rez']
 handler.tags = ['info', 'fun']
-handler.command = /^(ai|Rez)$/i
+handler.command = /^(ai|rez)$/i
 export default handler
