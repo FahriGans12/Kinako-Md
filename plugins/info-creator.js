@@ -10,6 +10,8 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ✦ @${nomorown.split`@`[0]} ✦
 ------- ${nameown} -------
   *Note:*
+• Owner : wa.me/6283811034750 [ Rezdev. ]
+• Owner2 : wa.me/6281258114080 [ Sanara ]
 • Owner Selalu menerima save contact
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam

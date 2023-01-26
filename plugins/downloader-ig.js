@@ -5,9 +5,9 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
     conn.sendFile(m.chat, results, 'instagram.mp4', `*INSTAGRAM DOWNLOADER*`, m)
 }
-handler.help = ['ig'].map(v => v + ' <url>')
+handler.help = ['ig2'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 
-handler.command = /^(ig(dl)?)$/i
+handler.command = /^(ig2(dl)?)$/i
 
 export default handler
